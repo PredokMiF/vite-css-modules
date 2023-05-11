@@ -14,5 +14,6 @@ ReactDOM.createRoot(appRootEl).render(
         <div className="div2">Yo! 2</div>
         <div className={styles3.div3}>Yo! 3</div>
         <div className={styles4.div4}>Yo! 4</div>
+        <div className={styles4.div5}>Yo! Must failed cause class is not exist</div>
     </div>,
 )
